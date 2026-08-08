@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #1e1e1e;
+  color: white;
+  text-align: center;
+}
+
+header {
+  background: linear-gradient(135deg, #00ff88, #006644);
+  padding: 30px;
+}
+
+.logo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 4px solid white;
+}
+
+.card {
+  background: #2b2b2b;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+button {
+  background: #00ff88;
+  color: black;
+  border: none;
+  padding: 12px 20px;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #00cc66;
+}
+
+footer {
+  padding: 20px;
+  color: #aaa;
+}
+.member-list {
+  text-align: left;
+  margin-left: -10px;
+}
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+/* ===== MENU TRANG CHÍNH ===== */
+.main-menu {
+  padding-top: 100px;
+}
+
+.menu-btn {
+  width: 250px;
+  padding: 15px;
+  margin: 15px;
+  font-size: 18px;
+  background: #00ff88;
+  border: none;
+  border-radius: 12px;
+  color: black;
+}
+
+/* ===== TRANG BÁN BASE ===== */
+.base-card {
+  background: #1f1f1f;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+.base-card img {
+  width: 100%;
+  max-width: 350px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}

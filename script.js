@@ -1,0 +1,1 @@
+console.log("KingMC Team Web đã hoạt động!");
