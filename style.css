@@ -1,6 +1,47 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.main-menu {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.logo {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 5px solid white;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.menu-btn {
+  width: 90%;
+  max-width: 350px;
+  padding: 18px;
+  margin: 12px 0;
+  font-size: 20px;
+  background: #00ff88;
+  border: none;
+  border-radius: 15px;
+  color: black;
+  font-weight: bold;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
   background: #1e1e1e;
   color: white;
   text-align: center;
